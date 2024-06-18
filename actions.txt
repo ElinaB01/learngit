@@ -11,3 +11,9 @@ git checkout -b first-branch
 git add .
 git commit -m "changes to first_file and actions, added second_file"
 git push origin first-branch
+
+21:20
+git checkout -b second-branch
+git add .
+git commit -m "changes to first_file, second_file, actions"
+git push origin second-branch
