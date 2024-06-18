@@ -3,4 +3,11 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
+git remote add origin https://github.com/ElinaB01/learngit
 git push -u origin main
+
+21:15
+git checkout -b first-branch
+git add .
+git commit -m "changes to first_file and actions, added second_file"
+git push origin first-branch
